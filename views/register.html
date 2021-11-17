@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cripto</title>
+    <link rel="stylesheet" href="../CSS/log.css">
+    <link rel="stylesheet" href="../CSS/main.css">
+  </head>
+  <body>
+
+    <!-- Card -->
+    <div class="container">
+      <div class="container__content">
+        <div class="title">
+          <h1>Register</h1>
+        </div>
+
+        <form method="post" action="../PHP/register.php" class="form">
+          <label for="user-nickname" style="padding-top:13px">Nickname</label>
+          <input id="user-nickname" class="form-content" name="nickname" required />
+          <label for="user-email" style="padding-top:13px">Email</label>
+          <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
+          <label for="user-password" style="padding-top:22px">Password</label>
+          <input id="user-password" class="form-content" type="password" name="password" required />
+          <input id="submit-btn" type="submit" name="submit" value="REGISTER" />
+          <a href="login.html"> Accedi</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

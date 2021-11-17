@@ -1,0 +1,60 @@
+/* Card */
+.container{
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  margin: 6rem auto 8.1rem auto;
+  width: 300px;
+}
+
+.container__content{
+  padding: 20px 40px;
+  color: #1573E6;
+}
+
+.title{
+  text-align: center;
+  color: #1573E6;
+}
+
+.form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content {
+  background: #fbfbfb;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  border-bottom: 1px solid #1573E6;
+  font-size: 16px;
+}
+
+#submit-btn {
+  color: #ffffff;
+  background: #1573E6;
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #1573E6;
+  cursor: pointer;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 153px;
+}
+
+#submit-btn:hover {
+  box-shadow: 0px 1px 18px #1573E6;
+}
+
+.form a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 16px;
+  text-align: center;
+  color: #1573E6;
+}
